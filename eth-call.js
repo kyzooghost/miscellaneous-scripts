@@ -1,8 +1,8 @@
 // Run in browser console with Metamask connected
 const txParams = {
-  to: '0x33bf916373159A8c1b54b025202517BfDbB7863D' // Replace
+  to: "0x450839F9882A910F6D4FC8Bd243405b99C27806f", // Replace
   from: ethereum.selectedAddress,
-  data: 0x0000 // Replace
+  data: "0x8da5cb5b" // Replace
 }
 
 const result = await ethereum.request({
