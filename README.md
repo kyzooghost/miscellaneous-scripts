@@ -1,1 +1,1 @@
-# miscellaneous-nft-scripts
+# miscellaneous-scripts
