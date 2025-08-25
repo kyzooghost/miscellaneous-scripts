@@ -2,6 +2,8 @@ approve() {
     gh pr review $1 --approve
 }
 
+git config --global push.autoSetupRemote true
+
 gcap() {
     git commit -am "$1" && git push
 }
