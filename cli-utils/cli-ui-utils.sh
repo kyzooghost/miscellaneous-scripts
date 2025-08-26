@@ -42,3 +42,9 @@ print_section() {
 print_progress() {
   echo -e "${BLUE}${BOLD}[$1/$2] Processing: ${CYAN}$3${NC}"
 }
+
+print_debug() {
+  if [[ "$(echo "${LOG}" | tr '[:upper:]' '[:lower:]')" == "debug" ]]; then
+    echo -e "${CYAN}🔍 DEBUG: $1${NC}"
+  fi
+}
