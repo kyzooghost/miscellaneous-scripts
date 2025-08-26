@@ -24,6 +24,10 @@ gnew() {
     git checkout -b "$1"
 }
 
+gwa() {
+    git worktree add "$1" "$2"
+}
+
 # Custom bash function to switch to 'main' branch in git, and delete the branch we just switched from.
 function delswitch() {
     # Get current branch name
