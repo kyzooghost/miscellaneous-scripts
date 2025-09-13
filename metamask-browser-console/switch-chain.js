@@ -4,3 +4,7 @@ await window.ethereum.request({
 });
 
 // Use https://chainlist.org/
+
+// 0xaa36a7 - Ethereum Sepolia
+// 0xe705 - Linea Sepolia
+// 0xe708 - Linea
