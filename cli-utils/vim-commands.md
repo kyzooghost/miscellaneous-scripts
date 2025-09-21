@@ -21,3 +21,34 @@
 - `gg` → Start of file  
 - `G` → End of file  
 - `:n` → Go to line `n` (e.g. `:42`)  
+
+## 📋 Copy & Paste
+- `yy` → Yank (copy) line  
+- `yw` → Yank word  
+- `y$` → Yank to end of line  
+- `p` → Paste after cursor  
+- `P` → Paste before cursor  
+
+## ✂️ Deleting
+- `x` → Delete char under cursor  
+- `dw` → Delete word  
+- `dd` → Delete line  
+- `d$` → Delete to end of line  
+- `d0` → Delete to start of line  
+
+## 🔄 Undo & Redo
+- `u` → Undo  
+- `Ctrl + r` → Redo
+
+## 📑 Visual Mode (Selecting Text)
+- `v` → Start visual mode (character)  
+- `V` → Visual line  
+- `Ctrl + v` → Visual block (columns)  
+- `y` → Yank selection  
+- `d` → Delete selection  
+- `>` / `<` → Indent / Unindent selection  
+
+## ⚡ Power Moves
+- `.` → Repeat last command  
+- `:set number` → Show line numbers  
+- `:set relativenumber` → Show relative line numbers (great for jumping) 
