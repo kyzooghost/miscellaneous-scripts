@@ -12,6 +12,10 @@ gpp() {
     git pull --prune
 }
 
+gs() {
+    git status
+}
+
 gb() {
     git branch
 }
