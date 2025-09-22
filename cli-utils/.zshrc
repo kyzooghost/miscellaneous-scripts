@@ -12,6 +12,10 @@ gpp() {
     git pull --prune
 }
 
+gclean() {
+    git reset --hard && git clean -fd
+}
+
 gs() {
     git status
 }
