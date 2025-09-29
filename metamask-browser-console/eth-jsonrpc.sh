@@ -27,3 +27,8 @@ curl https://rpc.devnet.linea.build \
   -X POST \
   -H "Content-Type: application/json" \
   --data '{"method":"eth_getTransactionReceipt","params":["0x6c8d21097f8146818f5702332d50c543e90f9b816c1b99274b49c97df8bcc43c"],"id":1,"jsonrpc":"2.0"}'
+
+  curl https://rpc.devnet.linea.build \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"method":"eth_sendRawTransaction","params":["0x6c8d21097f8146818f5702332d50c543e90f9b816c1b99274b49c97df8bcc43c"],"id":1,"jsonrpc":"2.0"}'
