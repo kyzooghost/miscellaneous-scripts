@@ -51,3 +51,13 @@ Search through command history
 ```bash
 CRTL + R
 ```
+
+Grep options
+
+`-r` - recursive
+`-i` - ignore case
+`-n` - show lines
+
+```bash
+grep -rin <PATTERN> <DIRECTORY>
+```
