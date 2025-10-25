@@ -61,3 +61,10 @@ Grep options
 ```bash
 grep -rin <PATTERN> <DIRECTORY>
 ```
+
+See then delete all "Chrome" processes
+
+```bash
+pgrep -a -f "Google Chrome"
+pkill -f "Google Chrome"
+```
