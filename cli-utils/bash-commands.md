@@ -68,3 +68,9 @@ See then delete all "Chrome" processes
 pgrep -a -f "Google Chrome"
 pkill -f "Google Chrome"
 ```
+
+Reload bash shell
+
+```bash
+zsh -l
+```
