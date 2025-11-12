@@ -74,3 +74,9 @@ Reload bash shell
 ```bash
 zsh -l
 ```
+
+See diff between two git branches
+
+```bash
+git diff branch1..branch2
+```
