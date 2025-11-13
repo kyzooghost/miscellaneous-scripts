@@ -9,3 +9,4 @@ await window.ethereum.request({
 // 0xe705 - Linea Sepolia
 // 0xe708 - Linea
 // 0x7a69 - Anvil
+// 0x88bb0 - Hoodi
