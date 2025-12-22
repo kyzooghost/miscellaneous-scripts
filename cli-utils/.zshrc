@@ -4,6 +4,8 @@ approve() {
 
 git config --global push.autoSetupRemote true
 
+alias k=kubectl
+
 gcap() {
     git commit -am "$1" && git push
 }
