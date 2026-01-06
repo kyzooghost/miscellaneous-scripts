@@ -19,6 +19,16 @@ proxy.on("proxyReq", (proxyReq, req, res, options) => {
   // Optionally keep connection alive:
   proxyReq.setHeader("Connection", "keep-alive");
 
+  // Add custom Auth header
+  // proxyReq.setHeader("Authorization", "Bearer xxx");
+
+  // Append path to TARGET
+  const requestPath = req.url;
+  const targetUrl = new URL(TARGET);
+  const newPath = requestPath === '/' 
+    ? targetUrl.pathname : targetUrl.pathname + requestPath;
+  proxyReq.path = newPath;
+
   let bodyData = [];
   req.on("data", chunk => {
     bodyData.push(chunk);
