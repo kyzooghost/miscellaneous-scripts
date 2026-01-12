@@ -51,4 +51,7 @@
 ## ⚡ Power Moves
 - `.` → Repeat last command  
 - `:set number` → Show line numbers  
-- `:set relativenumber` → Show relative line numbers (great for jumping) 
+- `:set relativenumber` → Show relative line numbers (great for jumping)
+
+## Find and replace
+- `sed -i '' 's|redis123|redis|g' redis.yml`
