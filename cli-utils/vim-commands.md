@@ -31,7 +31,7 @@
 
 ## ✂️ Deleting
 - `x` → Delete char under cursor  
-- `dw` → Delete word  
+- `db` → Delete word  
 - `dd` → Delete line  
 - `d$` → Delete to end of line  
 - `d0` → Delete to start of line  
