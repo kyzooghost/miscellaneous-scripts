@@ -20,7 +20,9 @@
 - `b` → Back one word  
 - `gg` → Start of file  
 - `G` → End of file  
-- `:n` → Go to line `n` (e.g. `:42`)  
+- `:n` → Go to line `n` (e.g. `:42`)
+- `10j` → Down 10 lines
+- `10k` → Up 10 lines
 
 ## 📋 Copy & Paste
 - `yy` → Yank (copy) line  
