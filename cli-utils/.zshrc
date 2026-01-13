@@ -5,6 +5,7 @@ approve() {
 git config --global push.autoSetupRemote true
 
 alias k=kubectl
+alias v=vim
 
 gcap() {
     git commit -am "$1" && git push
