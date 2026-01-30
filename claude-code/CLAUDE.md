@@ -2,6 +2,11 @@
 
 When writing new features, please use /test-driven-development and write tests according to /unit-test
 
+If an environment variable is added or removed, update the corresponding .env.sample file in the same project to match.
+
+When installing new dependencies, pin exact versions.
+Do NOT use floating versions, ranges, wildcards, or "latest".
+
 ---
 
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
