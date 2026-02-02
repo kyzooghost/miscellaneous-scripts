@@ -1,13 +1,20 @@
 # CLAUDE.md
 
+# Strict Rules
+
 When writing new features, please use /test-driven-development and write tests according to /unit-test
 
 If an environment variable is added or removed, update the corresponding .env.sample file in the same project to match.
 
-When installing new dependencies, pin exact versions.
-Do NOT use floating versions, ranges, wildcards, or "latest".
+When installing new dependencies, pin exact versions. Do NOT use floating versions, ranges, wildcards, or "latest".
 
----
+For JS packages, use pnpm, not npm
+
+For Python packages, use uv, not pip
+
+Do NOT do `git push`
+
+# Guidelines
 
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
 
