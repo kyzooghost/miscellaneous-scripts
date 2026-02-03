@@ -7,10 +7,6 @@ git config --global push.autoSetupRemote true
 alias k=kubectl
 alias v=vim
 
-gcap() {
-    git commit -am "$1" && git push
-}
-
 gpp() {
     git pull --prune
 }
@@ -33,10 +29,6 @@ gcb() {
 
 gnew() {
     git checkout -b "$1"
-}
-
-gwa() {
-    git worktree add "$1" "$2"
 }
 
 incognito() {
