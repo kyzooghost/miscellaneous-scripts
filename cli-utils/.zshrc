@@ -24,8 +24,8 @@ gb() {
     git branch
 }
 
-gcb() {
-    git checkout -b "$1" "$2"
+gp() {
+    git push
 }
 
 gnew() {
