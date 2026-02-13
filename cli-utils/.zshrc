@@ -6,6 +6,7 @@ git config --global push.autoSetupRemote true
 
 alias k=kubectl
 alias v=vim
+alias claude-yolo="claude --dangerously-skip-permissions"
 
 gpp() {
     git pull --prune
