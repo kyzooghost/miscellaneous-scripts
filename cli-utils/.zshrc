@@ -8,6 +8,10 @@ alias k=kubectl
 alias v=vim
 alias claude-yolo="claude --dangerously-skip-permissions"
 
+set-claude() {
+    code ~/.claude
+}
+
 gpp() {
     git pull --prune
 }
