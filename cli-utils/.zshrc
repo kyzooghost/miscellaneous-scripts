@@ -12,6 +12,10 @@ set-claude() {
     code ~/.claude
 }
 
+set-zshrc() {
+    code ~/.zshrc
+}
+
 gpp() {
     git pull --prune
 }
